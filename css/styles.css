@@ -135,6 +135,7 @@ body {
 /* -----/Hero section-----*/
 
 /* -----Benefits section-----*/
+
 .benefits-hiden-title {
     position: absolute;
     width: 1px;
@@ -155,6 +156,22 @@ body {
 .benefits-list-item {
     max-width: calc((100% - 72px) / 4);
 }
+.benefits-list-item-text {
+    margin-bottom: 8px;
+}
+
+.benefits-list-item .icon-box {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
+    justify-content: center;
+    margin-bottom: 8px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+}
+
 .benefits-list-title {
     font-weight: 500;
     font-size: 20px;
@@ -194,6 +211,7 @@ body {
 }
 .team-content {
     padding: 32px 0;
+
 }
 .team-list-item-title {
     font-weight: 500;
@@ -205,6 +223,32 @@ body {
 }
 .team-list-item-text {
     font-size: 16px;
+    margin-bottom: 8px;
+}
+.team-link-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.link-list-item .item-link {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-list-item .item-link:hover,
+.link-list-item .item-link:focus {
+    background-color: #404BBF;
+}
+
+.team-link-list .icon {
+    fill: #f4f4fd;
 }
 /* -----/Team section-----*/
 
@@ -251,6 +295,10 @@ body {
     padding: 100px 0;
 
 }
+.bottom-container {
+    display: flex;
+    align-items: baseline;
+}
 .bottom-logo {
     display: inline-block;
     font-family: "Raleway", sans-serif;
@@ -267,4 +315,34 @@ body {
 }
 .bottom-text {
     max-width: 264px;
+}
+.bottom-line-logo-box {
+    width: 264px;
+    margin-right: 120px;
+}
+.bottom-link {
+}
+.bottom-text-social {
+    font-weight: 500;
+    color: #fff;
+    margin: 0 112px 16px 0;
+}
+.bottom-list {
+    display: flex;
+    gap: 16px;
+}
+.bottom-list-item .item-link{
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-list-item .item-link:hover, .bottom-list-item .item-link:focus {
+    background-color: #31D0AA;
+}
+.bottom-list .icon {
+    fill: #f4f4fd;
 }
