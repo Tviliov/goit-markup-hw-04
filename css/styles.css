@@ -279,8 +279,8 @@ body {
 
 }
 
-.link-list-item:hover .item-link,
-.link-list-item:focus .item-link {
+.link-list-item .item-link:hover,
+.link-list-item .item-link:focus {
     background-color: #404BBF;
 }
 
